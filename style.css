@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+}
+
+.TopPhoto {
+    width: 100%;
+    height: 90vh;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textContainer {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    width: fit-content;
+    height: 10vh;
+    font-weight: bold;
+    font-size: clamp(16px, 3em, 50px);
+    color: rgb(56, 117, 231);
+    text-decoration: underline;
+    text-align: center;
+}
+h1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.photoContainer {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.hananPhoto {
+    width: 33%;
+    height: 50vh;
+}
+
+.belowPic, .belowPic2, .footer {
+    margin-top: 10vh;
+    width: 100%;
+    height: 90vh;
+}
