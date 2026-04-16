@@ -22,8 +22,8 @@ body {
 }
 
 .textContainer {
-    width: 90%;
-    height: fit-content;
+    width: 2000%;
+    height: 2000%;
     display: flex;
     justify-content: center;
     align-items: center;
